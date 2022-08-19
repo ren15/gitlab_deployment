@@ -19,3 +19,7 @@ jobs:
       - name: Test container building
         run: |
           make docker_run
+
+      - name: Docker ps
+        run: |
+          docker ps
