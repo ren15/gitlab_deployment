@@ -8,5 +8,5 @@ docker run --detach \
   --volume $GITLAB_HOME/logs:/var/log/gitlab \
   --volume $GITLAB_HOME/data:/var/opt/gitlab \
   --shm-size 512m \
-  gitlab/gitlab-ce:14.6.2-ce.0
+  
 #   --hostname 10.2.0.11 \
