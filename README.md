@@ -3,6 +3,4 @@
 - Deploy gitlab self-hosted
 - gitlab runner self-hosted
 
-```toml
-
-```
+check [gitlab-runner config](config.toml) if needed.
